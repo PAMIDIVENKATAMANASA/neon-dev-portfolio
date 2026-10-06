@@ -1,4 +1,4 @@
-import { Download, Linkedin, Github, Mail, Phone, Bot, ArrowRight } from 'lucide-react';
+import { Linkedin, Github, Mail, Phone, Bot, ArrowRight } from 'lucide-react';
 import manasaImage from '@/assets/manasa-new.jpg';
 
 const HeroSection = () => {
@@ -43,21 +43,11 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
               <a
-                href="https://drive.google.com/file/d/10uci1XG7Pt6MAuvfV89kN99aAiH5Q2OI/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
                 className="neon-button flex items-center gap-2 text-white font-semibold relative z-10"
               >
-                <Download className="w-5 h-5 relative z-10" />
-                <span className="relative z-10">Download Resume</span>
-              </a>
-
-              <a
-                href="#contact"
-                className="px-5 py-2.5 rounded-full border border-primary/40 hover:border-primary text-foreground hover:text-primary transition-all duration-300 flex items-center gap-2 text-sm font-medium"
-              >
-                <span>Get In Touch</span>
-                <ArrowRight className="w-4 h-4" />
+                <span className="relative z-10">Get In Touch</span>
+                <ArrowRight className="w-4 h-4 relative z-10" />
               </a>
             </div>
 
